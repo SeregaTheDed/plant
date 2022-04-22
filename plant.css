@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    line-height: 1.6;
+
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+.Wrapper {
+    width: 1349px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.intro {
+    width:100%;
+    max-width: 1600px;
+    height:1024px;
+    background: #F0FFE3;
+
+}
+/*Autorization*/
+.InputField1 {
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    left: 35px;
+    top: 62px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.InputField2 {
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    left: 35px;
+    top: 181px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.block {
+    position: absolute;
+    width: 570px;
+    height: 510px;
+    left: 400px;
+    top: 120px;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.mail{
+    position: absolute;
+    width: 221px;
+    height: 19px;
+    left: 35px;
+    top: 36px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.log{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 35px;
+    top: 153px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.InputButton {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 350px;
+    top: 270px;
+
+    background: #5CDB95;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.no {
+    position: absolute;
+    width: 136px;
+    height: 23px;
+    left: 214px;
+    top: 361px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.InputButtonno {
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 65px;
+    top: 400px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
