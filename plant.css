@@ -6,6 +6,11 @@ body{
     line-height: 1.6;
 
 }
+.Planttrecker{
+    position: absolute;
+    left: 500px;
+    top:40px;
+}
 *,
 *:before,
 *:after {
@@ -24,8 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 1024px;
     margin: 0 auto;
     overflow-x: hidden;
-    background: linear-gradient(113.62deg, rgba(255, 217, 251, 0.85) 3.15%, rgba(255, 255, 255, 0.69) 35.51%, rgba(255, 239, 253, 0.591732) 61.4%, rgba(254, 199, 248, 0.45) 98.74%);
-
+    background-color: white;
 }
 .intro {
     width:100%;
@@ -129,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 350px;
     top: 270px;
 
-    background: #5CDB95;
+    background: #D83F87;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 15px;
@@ -253,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 100px;
     top: 520px;
 
-    background: #5CDB95;
+    background: #D83F87;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 15px;
@@ -332,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     background: #FFFFFF;
-    border: 4px solid #5CDB95;
+    border: 4px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
    margin-top: 0;
@@ -347,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     background: #FFFFFF;
-    border: 4px solid #5CDB95;
+    border: 4px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
     margin-top: 0px;
@@ -361,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     background: #FFFFFF;
-    border: 4px solid #5CDB95;
+    border: 4px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
     margin-top: 0px;
@@ -572,7 +576,7 @@ position: absolute;
     font-size: 23px;
     line-height: 38px;
 
-    color: #6B38FB;
+    color: #8860D0;
 }
 .numbb1 {
     position: absolute;
@@ -587,7 +591,7 @@ position: absolute;
     font-size: 23px;
     line-height: 38px;
 
-    color: #6B38FB;
+    color: #8860D0;
 }
 .numb2 {
     position: absolute;
@@ -602,7 +606,7 @@ position: absolute;
     font-size: 23px;
     line-height: 38px;
 
-    color: #6B38FB;
+    color: #8860D0;
 }
 .numbb2{
     position: absolute;
@@ -617,7 +621,7 @@ position: absolute;
     font-size: 23px;
     line-height: 38px;
 
-    color: #6B38FB;
+    color: #8860D0;
 }
 .numb3 {
     position: absolute;
@@ -632,7 +636,7 @@ position: absolute;
     font-size: 23px;
     line-height: 38px;
 
-    color: #6B38FB;
+    color: #8860D0;
 }
 .numbb3 {
     position: absolute;
@@ -647,7 +651,7 @@ position: absolute;
     font-size: 23px;
     line-height: 38px;
 
-    color: #6B38FB;
+    color: #8860D0;
 }
 .name {
     position: absolute;
@@ -695,7 +699,7 @@ position: absolute;
     color: #000000;
 }
 .palm:hover{
-    color: #5CDB95;
+    color: #D83F87;
 }
 .gort{
     position: absolute;
@@ -715,7 +719,7 @@ position: absolute;
 
 }
 .gort:hover{
-    color: #5CDB95;
+    color: #D83F87;
 }
 .aloe{
     position: absolute;
@@ -733,7 +737,7 @@ position: absolute;
     transition: color .1s;
     color: #000000;}
 .aloe:hover{
-    color: #5CDB95;
+    color: #D83F87;
 }
 .petunia{
     position: absolute;
@@ -751,7 +755,7 @@ position: absolute;
     transition: color .1s;
     color: #000000;}
 .petunia:hover{
-    color: #5CDB95;
+    color: #D83F87;
 }
 .temperature{
     position: absolute;
@@ -818,7 +822,7 @@ position: absolute;
     left: 120px;
     bottom: 285px;
 
-    background: #5CDB95;
+    background: #D83F87;
     border-radius: 20px;
 }
 .button2 {
@@ -830,7 +834,7 @@ position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
-    color: #5CDB95;
+    color: #D83F87;
 
     position: absolute;
     width: 220px;
@@ -839,7 +843,7 @@ position: absolute;
     top: 15px;
 
     background: #FFFFFF;
-    border: 1px solid #5CDB95;
+    border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 20px;
 }
@@ -852,7 +856,7 @@ position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
-    color: #5CDB95;
+    color: #D83F87;
 
     position: absolute;
     width: 220px;
@@ -861,7 +865,7 @@ position: absolute;
     top: 100px;
 
     background: #FFFFFF;
-    border: 1px solid #5CDB95;
+    border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 20px;
 }
@@ -874,7 +878,7 @@ position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
-    color: #5CDB95;
+    color: #D83F87;
 
     position: absolute;
     width: 220px;
@@ -883,7 +887,7 @@ position: absolute;
     top: 185px;
 
     background: #FFFFFF;
-    border: 1px solid #5CDB95;
+    border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
 }
@@ -896,7 +900,7 @@ position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
-    color: #5CDB95;
+    color: #D83F87;
 
     position: absolute;
     width: 220px;
@@ -905,7 +909,7 @@ position: absolute;
     top: 22px;
 
     background: #FFFFFF;
-    border: 1px solid #5CDB95;
+    border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 20px;
 }
@@ -926,7 +930,7 @@ position: absolute;
     left: 120px;
     top: 100px;
 
-    background: #5CDB95;
+    background: #D83F87;
     border-radius: 20px;
 }
 .button3_kat{
@@ -938,7 +942,7 @@ position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
-    color: #5CDB95;
+    color: #D83F87;
 
     position: absolute;
     width: 220px;
@@ -947,7 +951,7 @@ position: absolute;
     top: 180px;
 
     background: #FFFFFF;
-    border: 1px solid #5CDB95;
+    border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 20px;
 }
@@ -960,7 +964,7 @@ position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
-    color: #5CDB95;
+    color: #D83F87;
 
     position: absolute;
     width: 220px;
@@ -969,10 +973,11 @@ position: absolute;
     top: 260px;
 
     background: #FFFFFF;
-    border: 1px solid #5CDB95;
+    border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
 }
+
 /*Search-box*/
 .search-txt{
     position: absolute;
@@ -982,7 +987,7 @@ position: absolute;
     top: 55px;
 
     background: #FFFFFF;
-    border: 1px solid #6B38FB;
+    border: 1px solid #8860D0;
     box-sizing: border-box;
     border-radius: 15px;
     font-family: 'Raleway',sans-serif;
@@ -1002,7 +1007,7 @@ position: absolute;
     border-radius: 100px;
 }
 .search_btn:hover{
-    background-color: #5CDB95;
+    background-color: #D83F87;
 }
 /*Otchet*/
 .pol{
@@ -1066,7 +1071,7 @@ position: absolute;
     line-height: 42px;
     text-align: center;
 
-    color: #6B38FB;
+    color: #8860D0;
 
 }
 .vipolneno1{
@@ -1083,7 +1088,7 @@ position: absolute;
     line-height: 42px;
     text-align: center;
 
-    color: #6B38FB;
+    color: #8860D0;
 
 }
 .propysheno1{
@@ -1100,5 +1105,5 @@ position: absolute;
     line-height: 42px;
     text-align: center;
 
-    color: #6B38FB;
+    color: #8860D0;
 }

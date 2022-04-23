@@ -5,8 +5,15 @@
 Изменить циферки на какие нужны:
     В первом случае первая циферка - месяц(1..12), вторая - год
     Во втором случае первое - месяц.год начала, второе - месяц.год конца
-<?php echo Calendar::getMonth(date('3'), date('2032')); ?>
-<?php echo Calendar::getInterval(date('1.2022'), date('12.2022')); ?>
+
+<?php
+require_once('Calendar.php');
+echo Calendar::getMonth(date('3'), date('2032'));
+ ?>
+<?php
+require_once('Calendar.php');
+echo Calendar::getInterval(date('1.2022'), date('12.2022'));
+ ?>
  */
 require_once('Database.php');
 require_once('Calendar.php');

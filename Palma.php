@@ -7,7 +7,9 @@
     <meta charset="utf-8"/>
     <title>Palm</title>
     <link rel="stylesheet" href="plant.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="Wrapper1">
@@ -46,7 +48,15 @@
     <p class="vipolneno1">47
     <p class="propysheno1">2
 
-
+    <div class="container">
+        <?php
+        require_once('scripts/Calendar.php');
+        $events = array(
+            '10.05.2022'    => 'Полить цветы'
+        );
+        echo Calendar::getInterval(date('4.2022'), date('6.2022'));
+        ?>
+    </div>
 </div>
 
 </body>

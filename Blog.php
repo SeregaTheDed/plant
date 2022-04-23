@@ -7,6 +7,7 @@
     <meta charset="utf-8"/>
     <title>glavnaya</title>
     <link rel="stylesheet" href="plant.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -70,5 +71,6 @@ border: 1px solid #969595;">
     <h3 class="warning">Сегодня можно не поливать!</h3>
 </div>
 </div>
+
 </body>
 </html>

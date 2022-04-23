@@ -1,6 +1,4 @@
-<?php
 
-?>
 <!doctype html>
 <html lang="ru">
 <head>
@@ -10,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+
 <div class="Wrapper1">
     <div class="glavn">
 
@@ -69,6 +68,10 @@ border: 1px solid #969595;">
     <h3 class="weather">Дождливо</h3>
     <h3 class="warning">Сегодня можно не поливать!</h3>
 </div>
+    <a class="Planttrecker" href="Glavnaya.php" >
+        <img style="vertical-align: middle; width:300px; height:70; " src="imagesss/logotipp.png" alt="" />
+    </a>
+
 </div>
 </body>
 </html>
