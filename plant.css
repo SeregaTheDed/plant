@@ -1854,7 +1854,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     grid-column: 1;
-    margin-top: auto;
+    margin-top: 125px;
     width: 240px;
     height: 470px;
     margin-left: auto;

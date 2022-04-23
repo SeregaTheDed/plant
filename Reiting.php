@@ -1,78 +1,66 @@
-
+<?php
+?>
 <!doctype html>
-<html lang="ru">
+<html lang='ru'>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset='utf-8'/>
     <title>glavnaya</title>
-    <link rel="stylesheet" href="plant.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='plant.css'/>
+    <link rel='stylesheet' href='style.css'/>
+    <link rel='stylesheet' href='saroja.css'/>
+    <link href='https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap'
+          rel='stylesheet'>
 </head>
-<body>
+<body class='content'>
+<form method='post' class='aleft'>
+    <input type='submit' name='Glavnaya' class='aleft__buttons aleft__buttons_selected' style='cursor: pointer;' value='Мои растения'>
+    <input type='submit' name='Katalog' class='aleft__buttons' style='cursor: pointer;' value='Каталог'>
+    <input type='submit' name='Blog' class='aleft__buttons' style='cursor: pointer;' value='Блог'>
+    <input type='submit' name='Reiting' class='aleft__buttons ' style='cursor: pointer;' value='Рейтинг'>
+    <input type='submit' name='Karta' class='aleft__buttons ' style='cursor: pointer;' value='Карта'>
 
-<div class="Wrapper1">
-    <div class="glavn">
 
-            <a class="flower1" href="#"></a>
 
-                <p class="date1">Дата посадки:
-                <p class="date1">Следующий полив:
-                <p class="numb1">5 апреля 2022 г.
-                <p class="numbb1">2 мая
 
-            <p class="date2">Дата посадки:
-            <p class="date2">Следующий полив:
-            <p class="numb2">16 мая 2018 г.
-            <p class="numbb2">23 мая
-
-            <p class="date3">Дата посадки:
-            <p class="date3">Следующий полив:
-            <p class="numb3">19 мая 2022 г.
-            <p class="numbb3">7 мая
-            <nav class="nav">
-                <a class="palm" href="Palma.php">Бамбуковая пальма</a>
-                <a class="gort" href="#">Гортензия</a>
-                <a class="aloe" href="#">Алоэ Вера</a>
-
-            <a class="button1_reit" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
-            <a class="button2" href="Katalog.php">Каталог</a>
-            <a class="button3" href="Blog.php">Блог</a>
-            <a class="button4_reit" href="Reiting.php">Рейтинг</a>
-            <a class="button5" href="MapMain.php">Карта</a>
-        </nav>
-        <img class="fl1" src="imagesss/palma.png" width="155" height="110">
-        <img class="fl2" src="imagesss/gort.png" width="110" height="90">
-        <img class="fl3" src="imagesss/aloe.png" width="110" height="120">
-
-        <hr style="position: absolute;
-width: 543px;
-height: 0px;
-left: 403px;
-top: 275px;
-
-border: 1px solid #969595;">
-        <hr style="position: absolute;
-width: 543px;
-height: 0px;
-left: 403px;
-top: 430px;
-
-border: 1px solid #969595;">
+</form>
+<div class='main'>
+    <div class='header'>
+        <img class='logo' src='imagesss/logotipp.png' alt='logo'>
+        <div class='nickname'></div>
+        <img class='avatar' src='imagesss/luda.png'>
     </div>
 
-<h1 class="name">Людмила</h1>
-    <img class="ludmila" src="imagesss/luda.png" width="100" height="100">
+    <?php
 
-<div class="WEATHER">
-    <img class="temp" src="imagesss/temp.png" width="90" height="90">
-    <img class="rain" src="imagesss/rain.png" width="90" height="90">
-    <h3 class="temperature">12°C</h3>
-    <h3 class="weather">Дождливо</h3>
-    <h3 class="warning">Сегодня можно не поливать!</h3>
-</div>
-    <a class="Planttrecker" href="Glavnaya.php" >
-        <img style="vertical-align: middle; width:300px; height:70px; " src="imagesss/logotipp.png" alt="" />
-    </a>
+    ?>
+    <div class='plants-container'>
+        <div class='plant-box'>
+            <img class='plant-box_image' src='imagesss/palma.png'>
+            <div class='plant-box_name' >Бамбуковая пальма</div>
+            <div class='plant-box_date-planting'>Дата посадки:</div>
+            <div class='plant-box_date-planting_date'>5 апреля 2022</div>
+            <div class='plant-box_date-watering'>Следующий полив:</div>
+            <div class='plant-box_date-watering_date'>2 мая</div>
+        </div>
+        <div class='planka'></div>
+        <div class='plant-box'>
+            <img class='plant-box_image' src='imagesss/palma.png'>
+            <div class='plant-box_name' >Бамбуковая пальма</div>
+            <div class='plant-box_date-planting'>Дата посадки:</div>
+            <div class='plant-box_date-planting_date'>5 апреля 2022</div>
+            <div class='plant-box_date-watering'>Следующий полив:</div>
+            <div class='plant-box_date-watering_date'>2 мая</div>
+        </div>
+    </div>
 
+    <h1 class="hey">Рейтинг в вашем регионе за месяц</h1>
 </div>
+<?php
+//ini_set('error_reporting', E_ALL);
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//require_once('scripts/Calendar.php');
+//echo Calendar::getInterval(date('1.Y'), date('12.Y'), EventCreater::CreateEventFromEmail($_COOKIE['email']));
+?>
 </body>
 </html>
