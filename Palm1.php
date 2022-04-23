@@ -14,16 +14,17 @@
 
             <a class="flower1" href="#"></a>
 
-                <p class="date1">Дата посадки:
-                <p class="date1">Следующий полив:
-                <p class="numb1">5 апреля 2022 г.
-                <p class="numbb1">2 мая
+                <p class="date1">Тип: домашнее
+                <p class="date1">Частота полива: 2 раза в день
+
+        <p class="text">Бамбуковая пальма предпочитает мягкое<br> освещение с небольшим затемнением.<br> Опрыскивать растение лучше всего <br>вечером и утром, полив производится <br> после подсыхания верхнего слоя грунта.</p>
+
 
 
             <nav class="nav">
                 <a class="palm" href="#">Бамбуковая пальма</a>
 
-
+                <button type="submit" name="submit_auth" class="AddButton">Добавить</button>
 
             <a class="button1_palm" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
             <a class="button2_palm" href="Katalog.php">Каталог</a>

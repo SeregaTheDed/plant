@@ -441,7 +441,7 @@ position: absolute;
     position: relative;
     left: 580px;
     top: 165px;
-    width: 200px;
+    width: 300px;
     height: 23px;
 
     font-family: 'Raleway', sans-serif;
@@ -1111,6 +1111,23 @@ position: absolute;
     border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
+}
+.AddButton{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 750px;
+    top: 500px;
+border: #6B38FB;
+    background: #8860D0;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 /*Search-box*/
 .search-txt{
