@@ -3,6 +3,24 @@ if (!isset($_COOKIE['email'])) {
     header('Location: Autorization.php');
     exit();
 }
+//require_once('scripts/MyPrint.php');
+//MyPrint::PrintBeutiful($_POST);
+if (isset($_POST['Reiting'])) {
+    header('Location: Reiting.php');
+    exit();
+}
+if (isset($_POST['Blog'])) {
+    header('Location: Blog.php');
+    exit();
+}
+if (isset($_POST['Katalog'])) {
+    header('Location: Katalog.php');
+    exit();
+}
+if (isset($_POST['Glavnaya'])) {
+    header('Location: Glavnaya.php');
+    exit();
+}
 ?>
 <!doctype html>
 <html lang="ru">
@@ -15,73 +33,43 @@ if (!isset($_COOKIE['email'])) {
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap"
           rel="stylesheet">
 </head>
-<body>
+<body class="content">
+<form method="post" class="aleft">
+        <input type="submit" name="Reiting" class="aleft__buttons " style="cursor: pointer;" value="Рейтинг">
+        <input type="submit" name="Blog" class="aleft__buttons" style="cursor: pointer;" value="Блог">
+        <input type="submit" name="Katalog" class="aleft__buttons" style="cursor: pointer;" value="Каталог">
+        <input type="submit" name="Glavnaya" class="aleft__buttons aleft__buttons_selected" style="cursor: pointer;" value="Мои растения">
+</form>
+<div class="main">
+    <div class="header">
+        <img class="logo" src="imagesss/logotipp.png" alt="logo">
+        <div class="nickname"><?php echo $_COOKIE['name']?></div>
+        <img class="avatar" src="imagesss/luda.png">
+    </div>
+    <a class="plant-add" href="">Добавить растение ⊕</a>
+    <?php
 
-<div class="Wrapper1">
-    <div class="glavn">
-
-        <a class="flower1" href="#"></a>
-
-        <p class="date1">Дата посадки:
-        <p class="date1">Следующий полив:
-        <p class="numb1">5 апреля 2022 г.
-        <p class="numbb1">2 мая
-
-        <p class="date2">Дата посадки:
-        <p class="date2">Следующий полив:
-        <p class="numb2">16 мая 2018 г.
-        <p class="numbb2">23 мая
-
-        <p class="date3">Дата посадки:
-        <p class="date3">Следующий полив:
-        <p class="numb3">19 мая 2022 г.
-        <p class="numbb3">7 мая
-        <nav class="nav">
-            <a class="palm" href="Palma.php">Бамбуковая пальма</a>
-            <a class="gort" href="#">Гортензия</a>
-            <a class="aloe" href="#">Алоэ Вера</a>
-
-            <a class="button1" href="Glavnaya.php">
-                <nobr>Мои растения</nobr>
-            </a>
-            <a class="button2" href="Katalog.php">Каталог</a>
-            <a class="button3" href="Blog.php">Блог</a>
-            <a class="button4" href="Reiting.php">Рейтинг</a>
-            <a class="button5" href="MapMain.php">Карта</a>
-        </nav>
-        <img class="fl1" src="imagesss/palma.png" width="155" height="110">
-        <img class="fl2" src="imagesss/gort.png" width="110" height="90">
-        <img class="fl3" src="imagesss/aloe.png" width="110" height="120">
-
-        <hr style="position: absolute;
-width: 543px;
-height: 0px;
-left: 403px;
-top: 275px;
-
-border: 1px solid #969595;">
-        <hr style="position: absolute;
-width: 543px;
-height: 0px;
-left: 403px;
-top: 430px;
-
-border: 1px solid #969595;">
+    ?>
+    <div class="plants-container">
+        <div class="plant-box">
+            <img class="plant-box_image" src="imagesss/palma.png">
+            <div class="plant-box_name" >Бамбуковая пальма</div>
+            <div class="plant-box_date-planting">Дата посадки:</div>
+            <div class="plant-box_date-planting_date">5 апреля 2022</div>
+            <div class="plant-box_date-watering">Следующий полив:</div>
+            <div class="plant-box_date-watering_date">2 мая</div>
+        </div>
+        <div class="planka"></div>
+        <div class="plant-box">
+            <img class="plant-box_image" src="imagesss/palma.png">
+            <div class="plant-box_name" >Бамбуковая пальма</div>
+            <div class="plant-box_date-planting">Дата посадки:</div>
+            <div class="plant-box_date-planting_date">5 апреля 2022</div>
+            <div class="plant-box_date-watering">Следующий полив:</div>
+            <div class="plant-box_date-watering_date">2 мая</div>
+        </div>
     </div>
 
-    <h1 class="name"><?php echo $_COOKIE['name']?></h1>
-    <img class="ludmila" src="imagesss/luda.png" width="100" height="100">
-
-    <div class="WEATHER">
-        <img class="temp" src="imagesss/temp.png" width="90" height="90">
-        <img class="rain" src="imagesss/rain.png" width="90" height="90">
-        <h3 class="temperature">12°C</h3>
-        <h3 class="weather">Дождливо</h3>
-        <h3 class="warning">Сегодня можно не поливать!</h3>
-    </div>
-    <a class="Planttrecker" href="Glavnaya.php">
-        <img style="vertical-align: middle; width:300px; height:70px; " src="imagesss/logotipp.png" alt=""/>
-    </a>
 
 </div>
 <?php

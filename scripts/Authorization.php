@@ -40,8 +40,8 @@ class Authorization
         }
         $name = $user['name'];
         $email = $user['email'];
-        setcookie('name', $name, time()+220);
-        setcookie('email', $email, time()+220);
+        setcookie('name', $name, time()+420);
+        setcookie('email', $email, time()+420);
         //MyPrint::PrintBeutiful("Конец авторизации");
         return true;
     }
