@@ -36,7 +36,8 @@
             <a class="button1" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
             <a class="button2" href="Katalog.php">Каталог</a>
             <a class="button3" href="Blog.php">Блог</a>
-            <a class="button4" href="Blog.php">Рейтинг</a>
+            <a class="button4" href="Reiting.php">Рейтинг</a>
+            <a class="button5" href="MapMain.php">Карта</a>
         </nav>
         <img class="fl1" src="imagesss/palma.png" width="155" height="110">
         <img class="fl2" src="imagesss/gort.png" width="110" height="90">

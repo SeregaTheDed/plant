@@ -16,7 +16,16 @@ body{
     left: 500px;
     bottom: 360px;
 }
-
+.Planttrecker_map{
+    position: absolute;
+    left: 500px;
+    bottom: 10px;
+}
+.Planttrecker_map2{
+    position: absolute;
+    left: 450px;
+    bottom: 10px;
+}
 *,
 *:before,
 *:after {
@@ -342,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     background: #FFFFFF;
-    border: 4px solid #D83F87;
+    border: 2px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
    margin-top: 0;
@@ -357,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     background: #FFFFFF;
-    border: 4px solid #D83F87;
+    border: 2px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
     margin-top: 0px;
@@ -371,10 +380,31 @@ h1, h2, h3, h4, h5, h6 {
 
 
     background: #FFFFFF;
-    border: 4px solid #D83F87;
+    border: 2px solid #D83F87;
     box-sizing: border-box;
     border-radius: 15px;
     margin-top: 0;
+}
+.flower1_map{
+    position: absolute;
+    width: 580px;
+    height: 175px;
+    left: 430px;
+    top: 30px;
+
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.flower2_map{
+    position: absolute;
+    width: 725px;
+    height: 188px;
+    left: 450px;
+    top: 250px;
+
+    background: #D83F87;
+    border-radius: 15px;
 }
 /*Images*/
 .fl1 {
@@ -403,6 +433,12 @@ h1, h2, h3, h4, h5, h6 {
     left: 1050px;
     top: 28px;
 }
+.ludmila_map{
+    border-radius: 300px;
+    position: absolute;
+    left: 1050px;
+   bottom: 1px;
+}
 .ludmila_kat{
     border-radius: 300px;
     position: absolute;
@@ -417,6 +453,16 @@ position: absolute;
      position: absolute;
      left: 1000px;
      top: 340px;
+ }
+ .letter{
+    position: absolute;
+     top: 170px;
+     left: 560px;
+ }
+ .settings{
+     position: absolute;
+     top: 170px;
+     left: 850px;
  }
 /*Text*/
 .zagolovok1 {
@@ -495,6 +541,17 @@ position: absolute;
     left: 450px;
     top: 250px;
 
+}
+.point{
+    position: absolute;
+    font-size: 150px;
+    color: deeppink;
+    left: 505px;
+    top: 492px;
+transition: color .1s;
+}
+.point:hover{
+    color: black;
 }
 /*Kataloge*/
 .kat1 {
@@ -673,6 +730,20 @@ position: absolute;
     line-height: 38px;
     color: #000000;
 }
+.name_map{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 880px;
+    bottom: 30px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
 .name_kat{
     position: absolute;
     width: 144px;
@@ -808,7 +879,17 @@ position: absolute;
 
     color: #000000;
 }
-
+.girl{
+    position: absolute;
+    left: 600px;
+    top: 600px ;
+}
+.map {
+    position: absolute;
+    left: 400px;
+    top: 450px;
+    border-radius: 20px;
+}
 /*Buttons*/
 .button1{
 
@@ -854,7 +935,7 @@ position: absolute;
     border-radius: 20px;
 }
 
-.button2 {
+.button2{
     font-family: 'Raleway',sans-serif;
     font-style: normal;
     text-decoration: none;
@@ -940,6 +1021,219 @@ position: absolute;
     box-sizing: border-box;
     border-radius: 15px;
 }
+.button5{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 270px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.button1_palma {
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    bottom: 285px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button3_palma{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 100px;
+
+    background: #D83F87;
+    border-radius: 20px;
+}
+.button1_reit{
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    bottom: 285px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button4_reit{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 185px;
+
+    background: #D83F87;
+    border-radius: 20px;
+}
+.button1_map{
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+   top:10px;
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button2_map{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 85px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button3_map{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 160px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button4_map{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 235px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.button5_map{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 310px;
+
+    background: #D83F87;
+    border-radius: 20px;
+}
 .button1_kat{
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -1020,6 +1314,28 @@ position: absolute;
     height: 60px;
     left: 120px;
     top: 260px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.button5_kat{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 340px;
 
     background: #FFFFFF;
     border: 1px solid #D83F87;
@@ -1257,4 +1573,141 @@ border: #6B38FB;
     text-align: center;
 
     color: #8860D0;
+}
+/*Info*/
+.inf1{
+    position: absolute;
+    width: 147px;
+    height: 38px;
+    left: 80px;
+    top: 70px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+
+
+    color: #000000;
+}
+.inf2{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 375px;
+    top: 70px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.inf3{
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 20px;
+    top: 110px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+.inf4{
+    position: absolute;
+    width: 231px;
+    height: 40px;
+    left: 320px;
+    top: 110px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+.inf5{
+    position: absolute;
+    width: 600px;
+    height: 56px;
+    left: 420px;
+    top: 250px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+.inf7{
+    position: absolute;
+    width: 150px;
+    height: 84px;
+    left: 560px;
+    top: 300px;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+transition: color .1s;
+    color: white;
+}
+.inf7:hover{
+    color: lightgreen;
+}
+.inf8{
+    position: absolute;
+    width: 162px;
+    height: 84px;
+    left: 920px;
+    top: 300px;
+text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    transition: color .1s;
+    color: white;
+
+}
+.inf8:hover{
+    color: lightgreen;
+}
+.inf6{
+    position: absolute;
+    width: 770px;
+    height: 104px;
+    left: 410px;
+    top: 60px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #000000;
 }

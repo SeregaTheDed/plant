@@ -54,7 +54,7 @@
          <a class="button2_kat" href="Katalog.php">Каталог</a>
          <a class="button3_kat" href="Blog.php">Блог</a>
          <a class="button4_kat" href="Blog.php">Рейтинг</a>
-
+         <a class="button5_kat" href="MapMain.php">Карта</a>
      </div>
 
         <hr style="position: absolute;

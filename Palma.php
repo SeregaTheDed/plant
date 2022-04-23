@@ -30,7 +30,8 @@
             <a class="button2_palm2" href="Katalog.php">Каталог</a>
             <a class="button3_palm3" href="Blog.php">Блог</a>
             <a class="button4_palm4" href="Blog.php">Рейтинг</a>
-        </nav>
+
+            </nav>
         <img class="fl1" src="imagesss/palma.png" width="155" height="110">
 
 
