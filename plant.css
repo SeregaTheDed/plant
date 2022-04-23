@@ -831,6 +831,29 @@ position: absolute;
     background: #D83F87;
     border-radius: 20px;
 }
+.button1_palm{
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    bottom: 120px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
 .button2 {
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -851,6 +874,26 @@ position: absolute;
     background: #FFFFFF;
     border: 1px solid #D83F87;
     box-sizing: border-box;
+    border-radius: 20px;
+}
+.button2_palm{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 15px;
+
+    background: #D83F87;
     border-radius: 20px;
 }
 .button3{
@@ -912,7 +955,7 @@ position: absolute;
     width: 220px;
     height: 60px;
     left: 120px;
-    top: 22px;
+   top: 15px;
 
     background: #FFFFFF;
     border: 1px solid #D83F87;
@@ -983,7 +1026,92 @@ position: absolute;
     box-sizing: border-box;
     border-radius: 15px;
 }
+.button1_palm1{
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
 
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 0px ;
+
+    background: #D83F87;
+    border-radius: 20px;
+}
+.button2_palm2{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 80px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button3_palm3{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 163px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.button4_palm4{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D83F87;
+
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 120px;
+    top: 247px;
+
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
 /*Search-box*/
 .search-txt{
     position: absolute;

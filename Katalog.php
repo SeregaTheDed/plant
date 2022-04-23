@@ -29,7 +29,7 @@
 
 
             <nav class="nav">
-                <a class="palm" href="#">Бамбуковая пальма</a>
+                <a class="palm" href="Palm1.php">Бамбуковая пальма</a>
                 <a class="gort" href="#">Гортензия</a>
                 <a class="aloe" href="#">Алоэ Вера</a>
                 <a class="petunia" href="#">Петуния</a></nav>
@@ -49,12 +49,13 @@
                 <img style="vertical-align: middle; width: 24px;" src="imagesss/searchh.png" alt="" />
             </button>
 
- <div class="nav_kat"> <nav2> <a class="button1_kat" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
+ <div class="nav_kat">
+         <a class="button1_kat" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
          <a class="button2_kat" href="Katalog.php">Каталог</a>
          <a class="button3_kat" href="Blog.php">Блог</a>
          <a class="button4_kat" href="Blog.php">Рейтинг</a>
 
-     </nav2></div>
+     </div>
 
         <hr style="position: absolute;
 width: 543px;
