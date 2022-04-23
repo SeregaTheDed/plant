@@ -17,27 +17,27 @@
 
                 <p class="date1">Дата посадки:
                 <p class="date1">Следующий полив:
-                <p class="numb1">5 апреля 2022 г.
-                <p class="numbb1">2 мая
+                <p class="numb1">16 мая 2018 г.
+                <p class="numbb1">3 июня
 
             <p class="date2">Дата посадки:
             <p class="date2">Следующий полив:
-            <p class="numb2">16 мая 2018 г.
-            <p class="numbb2">23 мая
+            <p class="numb2">16 мая 2022 г.
+            <p class="numbb2">2 мая
 
             <p class="date3">Дата посадки:
             <p class="date3">Следующий полив:
             <p class="numb3">19 мая 2022 г.
             <p class="numbb3">7 мая
             <nav class="nav">
-                <a class="palm" href="Palma.php">Бамбуковая пальма</a>
+                <a class="palm" href="#">Бамбуковая пальма</a>
                 <a class="gort" href="#">Гортензия</a>
                 <a class="aloe" href="#">Алоэ Вера</a>
 
             <a class="button1" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
             <a class="button2" href="Katalog.php">Каталог</a>
             <a class="button3" href="Blog.php">Блог</a>
-            <a class="button4" href="Blog.php">Рейтинг</a>
+
         </nav>
         <img class="fl1" src="imagesss/palma.png" width="155" height="110">
         <img class="fl2" src="imagesss/gort.png" width="110" height="90">
