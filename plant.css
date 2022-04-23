@@ -1711,3 +1711,131 @@ text-decoration: none;
 
     color: #000000;
 }
+.add_plant{
+    text-decoration: none;
+}
+.block1{
+    text-decoration: none;
+    position: absolute;
+    width: 400px;
+    height: 473px;
+    left: 460px;
+    top: 160px;
+    background: #FFFFFF;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.create{
+    position: absolute;
+    width: 400px;
+    height: 27px;
+    left: 480px;
+    top: 180px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+
+    color: #000000;
+}
+.type_btn{
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 480px;
+    top: 230px;
+
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #878686;
+}
+.date_btn{
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 480px;
+    top: 300px;
+
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #878686;
+}
+.poliv_btn{
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 480px;
+    top: 370px;
+
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+
+    color: #878686;
+}
+.add_photo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 480px;
+    top: 450px;
+
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 14px;
+    padding-left: 5px;
+    color: #878686;
+}
+.add_end{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    top: 550px;
+    left: 640px;
+
+
+    background: #D83F87;
+    border-radius: 15px;
+    border-color: #D83F87;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+
+}

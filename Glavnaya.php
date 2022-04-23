@@ -51,7 +51,7 @@ if (isset($_POST['Glavnaya'])) {
         <div class='nickname'><?php echo $_COOKIE['name']?></div>
         <img class='avatar' src='imagesss/luda.png'>
     </div>
-    <a class='plant-add' href=''>Добавить растение ⊕</a>
+    <a class='plant-add' href='AddPlant.php'>Добавить растение ⊕</a>
     <?php
 
     ?>
