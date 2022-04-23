@@ -35,10 +35,15 @@ if (isset($_POST['Glavnaya'])) {
 </head>
 <body class='content'>
 <form method='post' class='aleft'>
-        <input type='submit' name='Reiting' class='aleft__buttons ' style='cursor: pointer;' value='Рейтинг'>
-        <input type='submit' name='Blog' class='aleft__buttons' style='cursor: pointer;' value='Блог'>
-        <input type='submit' name='Katalog' class='aleft__buttons' style='cursor: pointer;' value='Каталог'>
-        <input type='submit' name='Glavnaya' class='aleft__buttons aleft__buttons_selected' style='cursor: pointer;' value='Мои растения'>
+    <input type='submit' name='Glavnaya' class='aleft__buttons aleft__buttons_selected' style='cursor: pointer;' value='Мои растения'>
+    <input type='submit' name='Katalog' class='aleft__buttons' style='cursor: pointer;' value='Каталог'>
+    <input type='submit' name='Blog' class='aleft__buttons' style='cursor: pointer;' value='Блог'>
+    <input type='submit' name='Reiting' class='aleft__buttons ' style='cursor: pointer;' value='Рейтинг'>
+    <input type='submit' name='Karta' class='aleft__buttons ' style='cursor: pointer;' value='Карта'>
+
+
+
+
 </form>
 <div class='main'>
     <div class='header'>

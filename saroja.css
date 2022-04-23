@@ -9,29 +9,27 @@
 }
 .aleft{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     grid-column: 1;
-    padding-bottom: 40px;
+    margin-top: auto;
     width: 240px;
     height: 470px;
     margin-left: auto;
-    background: #8860D0;
     border-radius: 0 0 15px 15px;
 }
 .aleft__buttons{
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    /* identical to box height */
-
     margin-left: auto;
     margin-right: auto;
-    width: 170px;
-    height: 40px;
+    width: 220px;
+    height: 60px;
     border-radius: 15px;
     margin-top: 15px;
     border: 1px solid #D83F87;
     color: #D83F87;
+    background: white;
 }
 .aleft__buttons :hover{
     cursor: pointer;
