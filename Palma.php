@@ -27,7 +27,7 @@
                 <a class="palm" href="#">Бамбуковая пальма</a>
 
 
-            <a class="button1" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
+            <a class="button1" href="Glavnaya.php" ><nobr>Мои растения</nobr></a>
             <a class="button2" href="Katalog.php">Каталог</a>
             <a class="button3" href="Blog.php">Блог</a>
             <a class="button4" href="Blog.php">Рейтинг</a>
@@ -57,6 +57,9 @@
         echo Calendar::getInterval(date('4.2022'), date('6.2022'));
         ?>
     </div>
+    <a class="Planttrecker" href="Glavnaya.php" >
+        <img style="vertical-align: middle; width:300px; height:70px; " src="imagesss/logotipp.png" alt="" />
+    </a>
 </div>
 
 </body>

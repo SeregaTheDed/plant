@@ -69,6 +69,10 @@ border: 1px solid #969595;">
     <h3 class="weather">Дождливо</h3>
     <h3 class="warning">Сегодня можно не поливать!</h3>
 </div>
+
+</div> <div><a class="Planttrecker" href="Glavnaya.php" >
+    <img style="vertical-align: middle; width:300px; height:70px; " src="imagesss/logotipp.png" alt="" />
+</a>
 </div>
 </body>
 </html>

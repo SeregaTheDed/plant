@@ -53,6 +53,7 @@
          <a class="button2_kat" href="Katalog.php">Каталог</a>
          <a class="button3_kat" href="Blog.php">Блог</a>
          <a class="button4_kat" href="Blog.php">Рейтинг</a>
+
      </nav2></div>
 
         <hr style="position: absolute;
@@ -84,7 +85,9 @@ border: 1px solid #969595;">
 
 
 
-
+        <a class="Planttrecker_kat" href="Glavnaya.php" >
+            <img style="vertical-align: middle; width:300px; height:70px; " src="imagesss/logotipp.png" alt="" />
+        </a>
 </div>
 
 </body>

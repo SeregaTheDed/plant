@@ -38,6 +38,7 @@
             <a class="button1" href="Glavnaya.php"><nobr>Мои растения</nobr></a>
             <a class="button2" href="Katalog.php">Каталог</a>
             <a class="button3" href="Blog.php">Блог</a>
+            <a class="button4" href="Blog.php">Рейтинг</a>
 
         </nav>
         <img class="fl1" src="imagesss/palma.png" width="155" height="110">
@@ -70,6 +71,9 @@ border: 1px solid #969595;">
     <h3 class="weather">Дождливо</h3>
     <h3 class="warning">Сегодня можно не поливать!</h3>
 </div>
+    <a class="Planttrecker" href="Glavnaya.php" >
+        <img style="vertical-align: middle; width:300px; height:70px; " src="imagesss/logotipp.png" alt="" />
+    </a>
 </div>
 
 </body>
