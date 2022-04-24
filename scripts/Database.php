@@ -18,7 +18,6 @@ class Database extends mysqli
         $prev->bind_param('s',$email);
         $prev->execute();
         $res = $prev->get_result();
-
         if ($res === false)
             return null;
         if ($res->num_rows != 1)
@@ -26,6 +25,29 @@ class Database extends mysqli
         return $res;
 
     }
+
+    /** Получаем все растения по email
+     * @param string $email
+     * @return mysqli_result|null
+     */
+    public function getPlantsByEmail(string $email)
+    {
+        $prev = self::prepare("SELECT * FROM your_plants WHERE email = ?");
+        $prev->bind_param('s',$email);
+        $prev->execute();
+        $res = $prev->get_result();
+        if ($res === false)
+            return null;
+        return $res;
+    }
+
+    public function addPlant(string $name, string $email, string $date, string $interval, string $pathToImage)
+    {
+        $prev = self::prepare("INSERT INTO your_plants(name, email, planting_date, watering_interval, photo) VALUE(?, ?, ?, ?, ?)");
+        $prev->bind_param('sssss', $name, $email, $date, $interval, $pathToImage);
+        $prev->execute();
+    }
+
     function __destruct()
     {
         self::close();

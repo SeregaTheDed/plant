@@ -3,7 +3,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8"/>
-    <title>glavnaya</title>
+    <title>Palm1</title>
     <link rel="stylesheet" href="plant.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
 </head>

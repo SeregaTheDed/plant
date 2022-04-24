@@ -72,10 +72,12 @@
 .main{
     grid-column: 2;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: max-content 1fr;
     grid-template-rows: 100px 40px 1fr;
 }
 .plant-add{
+    grid-column: 1;
+    grid-row: 2;
     margin-left: 20px;
     width: max-content;
 }
@@ -100,8 +102,10 @@
     height: 190px;
 }
 .plant-box_image{
-    height: 160px;
-    width: 180px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 170px;
+    width: 140px;
     grid-column: 1;
     grid-row: 1/4;
 }

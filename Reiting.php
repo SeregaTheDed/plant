@@ -1,10 +1,12 @@
 <?php
+require_once('scripts/CheakPostToRedirect.php');
+CheakRedirects();
 ?>
 <!doctype html>
 <html lang='ru'>
 <head>
     <meta charset='utf-8'/>
-    <title>Reiting</title>
+    <title>Рейтинг</title>
     <link rel='stylesheet' href='plant.css'/>
     <link rel='stylesheet' href='style.css'/>
     <link rel='stylesheet' href='saroja.css'/>
@@ -13,10 +15,10 @@
 </head>
 <body class='content'>
 <form method='post' class='aleft'>
-    <input type='submit' name='Glavnaya' class='aleft__buttons aleft__buttons_selected' style='cursor: pointer;' value='Мои растения'>
+    <input type='submit' name='Glavnaya' class='aleft__buttons ' style='cursor: pointer;' value='Мои растения'>
     <input type='submit' name='Katalog' class='aleft__buttons' style='cursor: pointer;' value='Каталог'>
     <input type='submit' name='Blog' class='aleft__buttons' style='cursor: pointer;' value='Блог'>
-    <input type='submit' name='Reiting' class='aleft__buttons ' style='cursor: pointer;' value='Рейтинг'>
+    <input type='submit' name='Reiting' class='aleft__buttons aleft__buttons_selected' style='cursor: pointer;' value='Рейтинг'>
     <input type='submit' name='Karta' class='aleft__buttons ' style='cursor: pointer;' value='Карта'>
 
 
@@ -26,7 +28,7 @@
 <div class='main'>
     <div class='header'>
         <img class='logo' src='imagesss/logotipp.png' alt='logo'>
-        <div class='your_nickname'>#</div>
+        <div class='your_nickname'><?php echo $_COOKIE['name'] ?></div>
         <img class='avatar' src='imagesss/luda.png'>
     </div>
 

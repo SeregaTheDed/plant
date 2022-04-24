@@ -37,7 +37,7 @@
 
     </div>
 
-<h1 class="name">Людмила</h1>
+<h1 class="name"><?php echo $_COOKIE['name'] ?></h1>
     <img class="ludmila" src="imagesss/luda.png" width="100" height="100">
 
 

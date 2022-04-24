@@ -1,11 +1,13 @@
 <?php
+require_once('scripts/CheakPostToRedirect.php');
+CheakRedirects();
 
 ?>
 <!doctype html>
 <html lang="ru">
 <head>
     <meta charset="utf-8"/>
-    <title>glavnaya</title>
+    <title>Каталог</title>
     <link rel="stylesheet" href="plant.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
 </head>
@@ -80,7 +82,7 @@ top: 595px;
 border: 1px solid #969595;">
     </div>
 
-<h1 class="name_kat">Людмила</h1>
+<h1 class="name_kat"><?php echo $_COOKIE['name'] ?></h1>
     <img class="ludmila_kat" src="imagesss/luda.png" width="100" height="100">
 
 

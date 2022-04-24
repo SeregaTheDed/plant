@@ -1,5 +1,6 @@
 <?php
-
+require_once('scripts/CheakPostToRedirect.php');
+CheakRedirects();
 ?>
 <!doctype html>
 <html lang='ru'>
@@ -27,7 +28,7 @@
 <div class='main'>
     <div class='header'>
         <img class='logo' src='imagesss/logotipp.png' alt='logo'>
-        <div class='nickname'>#</div>
+        <div class='nickname'><?php echo $_COOKIE['name'] ?></div>
         <img class='avatar' src='imagesss/luda.png'>
     </div>
 

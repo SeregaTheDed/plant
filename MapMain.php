@@ -3,7 +3,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8"/>
-    <title>glavnaya</title>
+    <title>Карта</title>
     <link rel="stylesheet" href="plant.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
         </nav>
 
 
-<h1 class="name_map">Людмила</h1>
+<h1 class="name_map"><?php echo $_COOKIE['name'] ?></h1>
     <img class="ludmila_map" src="imagesss/luda.png" width="100" height="100">
 
         <a class="Planttrecker_map2" href="Glavnaya.php" >

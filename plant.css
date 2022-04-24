@@ -1802,31 +1802,28 @@ text-decoration: none;
 }
 .add_photo{
     position: absolute;
-    width: 130px;
-    height: 130px;
+    opacity: 1;
+    width: 350px;
+    height: 50px;
     left: 480px;
     top: 450px;
-
+    text-align: center;
+    padding: 10px;
     border: 1px solid #D83F87;
     box-sizing: border-box;
     border-radius: 10px;
-
     font-family: 'Raleway',sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
+    font-weight: 300;
     line-height: 14px;
-    padding-left: 5px;
     color: #878686;
 }
 .add_end{
     position: absolute;
-    width: 170px;
-    height: 40px;
-    top: 550px;
-    left: 640px;
-
-
+    width: 350px;
+    height: 70px;
+    top: 530px;
+    left: 480px;
     background: #D83F87;
     border-radius: 15px;
     border-color: #D83F87;
@@ -1835,7 +1832,6 @@ text-decoration: none;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-
     color: #FFFFFF;
 
 }

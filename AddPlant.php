@@ -1,10 +1,55 @@
 <?php
+require_once('scripts/CheakPostToRedirect.php');
+CheakRedirects();
+if (isset($_POST['add-end'])) {
+    //ini_set('error_reporting', E_ALL);
+    //ini_set('display_errors', 1);
+    //ini_set('display_startup_errors', 1);
+    require_once('scripts/PhotoDownloader.php');
+    $path = 'imagesss/null.png';
+    $name = $_POST['name'];
+    $date = $_POST['date'];
+    $interval = $_POST['poliv'];
+    $filename =  $_FILES['add_photo']['name'];
+    $expected = PhotoDownloader::can_upload($_FILES['add_photo']);
+    if ($expected === true)
+    {
+        require_once('scripts/Database.php');
+        try
+        {
+            $db = new Database();
+            $path = PhotoDownloader::make_upload($_FILES['add_photo']);
+            $db->addPlant($name, $_COOKIE['email'], $date, $interval, $path);
+            header('Location: Glavnaya.php');
+        }
+        catch (Exception $e)
+        {
+            echo $e->getMessage();
+        }
+
+
+    }
+    else
+    {
+        echo $expected;
+    }
+
+}
+/*
+        <input type="file" name="add_photo" class="add_photo" value="+">
+        <button type="submit" name="add-end" class="add_end">Добавить</button>
+        <h1 class="create">Создать карточку растения:</h1>
+        <input name="name" type="text" class="type_btn" placeholder="Название растения">
+        <input name="date" type="text" class="date_btn" placeholder="Дата посева(YYYY-MM-DD)">
+        <input name="poliv" type="text" class="poliv_btn" placeholder="Интервал поливания">
+ */
+//$db->addPlant($name, $email, "2022-4-24", '4','.null.png');
 ?>
 <!doctype html>
 <html lang='ru'>
 <head>
     <meta charset='utf-8'/>
-    <title>Addplant</title>
+    <title>Добавить новое растение</title>
     <link rel='stylesheet' href='plant.css'/>
     <link rel='stylesheet' href='style.css'/>
     <link rel='stylesheet' href='saroja.css'/>
@@ -25,19 +70,19 @@
 <div class='main'>
     <div class='header'>
         <img class='logo' src='imagesss/logotipp.png' alt='logo'>
-        <div class='nickname'></div>
+        <div class='nickname'><?php echo $_COOKIE['name'] ?></div>
         <img class='avatar' src='imagesss/luda.png'>
     </div>
-    <div class="add_plant">
+    <form method="post" class="add_plant" enctype="multipart/form-data">
         <a class="block1"></a>
-        <button type="submit" name="add_photo" class="add_photo">+</button>
+        <input type="file" name="add_photo" class="add_photo" value="+">
         <button type="submit" name="add-end" class="add_end">Добавить</button>
         <h1 class="create">Создать карточку растения:</h1>
-        <input name="type" type="text" class="type_btn" placeholder="Название растения">
-        <input name="date" type="text" class="date_btn" placeholder="Дата посева">
+        <input name="name" type="text" class="type_btn" placeholder="Название растения">
+        <input name="date" type="text" class="date_btn" placeholder="Дата посева(YYYY-MM-DD)">
         <input name="poliv" type="text" class="poliv_btn" placeholder="Интервал поливания">
-
-    </div>
+        <?php //echo $path; <?php echo" 'style='background: url($path)' " ?>
+    </form>
 
 
 </div>

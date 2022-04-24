@@ -15,16 +15,14 @@ require_once('Calendar.php');
 echo Calendar::getInterval(date('1.2022'), date('12.2022'));
  ?>
  */
+return;
 require_once('Database.php');
 require_once('Calendar.php');
 require_once('MyPrint.php');
 $db = new Database();
 $name = 'test';
-$pass = password_hash('12345', PASSWORD_BCRYPT) ;
 $email = 'test@test.ru';
-$prev = $db->prepare("INSERT INTO users(name, email, hash) VALUE(?, ?, ?)");
-$prev->bind_param('sss', $name, $email, $pass);
-$prev->execute();
+//$db->addPlant($name, $email, "2022-4-24", '4','.null.png');
 
 
 
