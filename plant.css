@@ -2037,3 +2037,99 @@ text-decoration: none;
 .aleft__buttons :hover{
     cursor: pointer;
 }
+/*Reiting*/
+.your_reiting{
+    display: inline-block;
+    margin-top: 120px;
+    flex-direction: row;
+    width: 532px;
+    height: 145px;
+    margin-left: 20px;
+
+}
+.ava{
+    align-self:center;
+    grid-column: 1;
+    grid-row: 1;
+    display: inline-block;
+    width: max-content;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    height: 40px;
+    margin-left: 10px;
+}
+.your_avatar{
+    border-radius: 100%;
+float: left;
+}
+.bal{
+    width: 300px;
+    height: 195px;
+    border: 1px solid #D83F87;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    flex-direction: column;
+    grid-column: 1;
+    margin-top: 100px;
+    margin-left: 265px;
+}
+
+.reit_plant{
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.reit_plant1{
+    grid-column: 3;
+    grid-row: 2;
+    margin: auto;
+    font-family: 'Moul',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+
+
+    color: #8860D0;
+}
+.reit_poliv{
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.reit_poliv1{
+    grid-column: 3;
+    grid-row: 3;
+    margin: auto;
+    color: #8860D0;
+    font-family: 'Moul',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+}
+.other{
+
+    align-self:center;
+    grid-column: 2;
+    grid-row: 2;
+    display: inline-block;
+    width:700px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    height: 40px;
+    margin-left: 10px;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 270px;
+    height: 470px;
+    margin-left: 0;
+}

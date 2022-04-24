@@ -4,7 +4,7 @@
 <html lang='ru'>
 <head>
     <meta charset='utf-8'/>
-    <title>glavnaya</title>
+    <title>Reiting</title>
     <link rel='stylesheet' href='plant.css'/>
     <link rel='stylesheet' href='style.css'/>
     <link rel='stylesheet' href='saroja.css'/>
@@ -26,32 +26,61 @@
 <div class='main'>
     <div class='header'>
         <img class='logo' src='imagesss/logotipp.png' alt='logo'>
-        <div class='nickname'></div>
+        <div class='your_nickname'>#</div>
         <img class='avatar' src='imagesss/luda.png'>
     </div>
 
     <?php
 
     ?>
-    <div class='plants-container'>
-        <div class='plant-box'>
-            <img class='plant-box_image' src='imagesss/palma.png'>
-            <div class='plant-box_name' >Бамбуковая пальма</div>
-            <div class='plant-box_date-planting'>Дата посадки:</div>
-            <div class='plant-box_date-planting_date'>5 апреля 2022</div>
-            <div class='plant-box_date-watering'>Следующий полив:</div>
-            <div class='plant-box_date-watering_date'>2 мая</div>
+
+    <div class="your_reiting">
+        <div class="ava">
+            <img class='your_avatar' src='imagesss/luda.png'>
+        <div class="nickname">#</div>
+
+
         </div>
-        <div class='planka'></div>
-        <div class='plant-box'>
-            <img class='plant-box_image' src='imagesss/palma.png'>
-            <div class='plant-box_name' >Бамбуковая пальма</div>
-            <div class='plant-box_date-planting'>Дата посадки:</div>
-            <div class='plant-box_date-planting_date'>5 апреля 2022</div>
-            <div class='plant-box_date-watering'>Следующий полив:</div>
-            <div class='plant-box_date-watering_date'>2 мая</div>
-        </div>
+
+
+</div>
+    <div class="bal">
+        <div class='reit_plant'>Количество растений:</div>
+        <div class='reit_plant1'>17 место</div>
+        <div class='reit_poliv'>Регулярность поливок:</div>
+        <div class='reit_poliv1'>5 место</div>
     </div>
+    </div>
+<div class="other" style="clear:both;">
+     <h2 style="float: left; font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+background: #F4E1E1;
+border-radius: 10px;">Количество растений:</h2>
+     <h2 style="float: right; font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+background: #F4E1E1;
+border-radius: 10px;">Регулярность поливок:</h2>
+<div class="people">
+    <p>1.<img src="imagesss/b1.png" width="80" height="80" style=" border-radius: 40px;" />Анна Н.</p>
+
+    <p>2.<img src="imagesss/b2.png" width="80" height="80"  style=" border-radius: 40px;" />
+        Наталья Е.</p>
+
+    <p>3.<img src="imagesss/b3.png" width="80" height="80" style=" border-radius: 40px;"/>Нина Д.</p>
+</div>
+
+
+
+    </div>
+
 
     <h1 class="hey">Рейтинг в вашем регионе за месяц</h1>
 </div>
