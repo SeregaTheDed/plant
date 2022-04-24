@@ -28,7 +28,7 @@
         </nav>
 
 
-<h1 class="name_map">Людмила</h1>
+<h1 class="name_map"><?php echo $_COOKIE['name'] ?></h1>
     <img class="ludmila_map" src="imagesss/luda.png" width="100" height="100">
 
         <a class="Planttrecker_map" href="Glavnaya.php" >

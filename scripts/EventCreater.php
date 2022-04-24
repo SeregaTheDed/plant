@@ -6,7 +6,6 @@ class EventCreater
         require_once ('Database.php');
         require_once ('MyPrint.php');
         $db = new Database();
-        $email = 'test@test.ru';
         $prev = $db->prepare("SELECT * FROM your_plants WHERE email = ?");
         $prev->bind_param('s',$email);
         $prev->execute();
